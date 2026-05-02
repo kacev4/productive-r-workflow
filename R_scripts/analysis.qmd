@@ -92,7 +92,7 @@ all_data_plot <- data %>%
   labs(x = "Bill Length (mm)",
        y = "Bill Depth (mm)",
        title = paste("Surprising relationship?")) + 
-  theme_minimal()
+  theme_ipsum_es()
 
 ggplotly(all_data_plot)
 ```
